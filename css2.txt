@@ -1,0 +1,61 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Case 4
+
+   Tables Style Sheet
+   Author: Lisa Bernard
+   Date: Nov. 15th, 2015
+
+   Filename:         schedule.css 
+
+*/
+
+table.reservation {
+  font-size: 0.8em;
+  border: 10px outset rgb(49,165,142);
+  border-collapse: collapse;
+  width: 60%;
+  padding-left: 30%;
+  padding-right: 10%;
+  text-align: center;
+  caption-side: top;
+}
+
+caption {
+  margin-right: 2em;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+table.reservation th {
+  border: 2px solid gray;
+  color: rgb(63,92,85);
+  vertical-align: bottom;
+  text-align: left;
+  width: 3em;
+}
+
+table.reservation td {
+  border: 2px solid rgb(49,165,142);
+}
+
+table.reservation col.firstCol, tr.roomRow {
+  background-color: rgb(154,186,179);
+  color: rgb(63,92,85);
+}
+
+table.reservation {
+  background-color: rgb(189,210,205);
+  color: black;
+  font-weight: bold;
+}
+
+td.empty {
+  background-color: white;
+}
+
+caption {
+  column-count: 2;
+  text-align: left;
+}
