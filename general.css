@@ -1,0 +1,52 @@
+/*
+  Web Portfolio
+  Author: Lisa Bernard
+  Date: December 6th, 2016
+
+  Filename:         home.css
+  Supporting Files: home.html, worksamples.html, skils.html, goals.html, about.html, resume.html, doom.html and contact.html
+*/
+
+/*
+	web font
+*/
+
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('☺'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');		
+}
+
+/*
+  body
+*/
+
+body {
+  font-family: 'NobleRegular', Geneva, sans-serif;
+  background-image: url(background.png);
+  background-repeat: horizontial-repeat;
+  width: 99%;
+  max-width: 1400px;
+  min-width: 1000px;
+}
+
+/*
+  header
+*/
+
+header {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+/*
+  paragraph
+*/
+
+p, ul, dd {
+  background-color: rgb(191,213,225);
+  background-color: rgba(191,213,225, 0.6);
+}

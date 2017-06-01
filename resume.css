@@ -1,0 +1,201 @@
+/*
+  Web Portfolio
+  Author: Lisa Bernard
+  Date: December 6th, 2016
+
+  Supporting Files: resume.html
+*/
+
+/*
+  headings
+*/
+
+h3.out {
+  background-color: rgb(0,116,81);
+  background-color: rgba(0,116,81,0.5);
+  color: white;
+  width: 99%;
+  text-align: center;
+  font-size: 1.15em;
+  font-style: oblique;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  margin-top: 0.1em;
+}
+
+h3#title {
+  background-color: rgb(0,116,81);
+  background-color: rgba(0,116,81,0.5);
+  color: white;
+  font-size: 2.3em;
+  font-style: oblique;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  margin-top: 2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+section#certifications h4 {
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+#certifications h4 {
+  text-align: center;
+}
+
+h5.safety {
+  color: green;
+}
+
+article#WHMIS {
+  float: left;
+  padding-left: 15%;
+}
+
+article#WHMIS ul {
+  padding-left: 5em;
+}
+
+article#WHMIS h5 {
+  padding-left: 8em;
+}
+
+article#OHS ul {
+  padding-right: 5em;
+}
+
+article#OHS h5 {
+  padding-right: 9em;
+}
+
+article#OHS {
+  float: right;
+  padding-right: 10%;
+  text-align: right;
+}
+
+#hobbies h5.title {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+#certifications h5.title {
+  color: rgb(0,116,81);
+}
+
+h5.title {
+  font-weight: Bold;
+  font-size: 1em;
+}
+
+/*
+  basic formatting
+*/
+
+#certifications, #hobbies, #soft, #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news, #weekly, #cleanup, #walk, #karate, #school {
+  padding-left: 5em;
+}
+
+ul, dl, p {
+  font-weight: normal;
+}
+
+p {
+  width: 80%;
+}
+
+/*
+  ul
+*/
+
+ul {
+  list-style: none;
+}
+
+ul#bullet {
+  list-style: square;
+  padding-left: 7%;
+}
+
+#soft {
+  list-style-type: bullet;
+}
+
+#hobbies ul {
+  list-style: square;
+}
+
+#hobbies #title {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+/*
+  description list
+*/
+
+dt.achievements {
+  font-weight: bold;
+}
+
+dt {
+  height: 1.5em;
+}
+
+dd {
+  height: 2em; 
+}
+
+/*
+  image
+*/
+
+/*
+  divider
+*/
+
+#co-op, #toysrus, #weekly, #news, #walk, #karate, #school, #hobbies, #certifications {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-top-style: solid;
+  border-top-color: rgb(0,116,81);
+  border-top-width: 1px;
+}
+
+/*
+  color
+*/
+
+#in, #hobby {
+  color: rgb(0,80,50);
+}
+
+/*
+  other
+*/
+
+#pageup {
+  clear: left;
+  text-align: center;
+  font-size: 0.75em;
+  text-decoration: none;
+  margin-top: 1em;
+  padding-top: 1em;
+  display: block;
+}
+
+a.amp {
+  font-size: 0.7em;
+}

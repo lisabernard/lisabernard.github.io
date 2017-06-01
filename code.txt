@@ -1,0 +1,123 @@
+"""
+This is an Invader Zim simulator!
+Working on Zim, Megadoomer
+
+dib and gir infinite loops
+added battle dib and walk of doom
+while loop from characters to surprise, jump, destroy!
+destroy is the most developed scenario at the moment...
+"""
+character = " "
+answer = " "
+plan = " "
+end = " "
+
+while character.lower() != 212:
+    character = input("Character list:\n\nZim\nDib\nGaz\nGir\nTak\nRed\nPurple\nWho do you want to be? ")
+    if character.lower() == "zim":
+        break
+    if character.lower() == "dib":
+        break
+    if character.lower() == "gaz":
+        break
+    if character.lower() == "gir":
+        break
+    if character.lower() == "tak":
+        break
+    if character.lower() == "red":
+        break
+    if character.lower() == "purple":
+        break
+
+if character.lower() == "zim":
+    print("\nCongratulations, you are now ZIM!")
+    print("You're mission: Ready the Earth for irken control")
+    while plan.lower() != "mega":
+        plan = input("Episodes: Megadoomer = mega\nChoose an episode: ")
+    if plan == "mega":
+        print("\nMegadoomer - See first 2 minutes forty four seconds of Megadoomer")
+        answer = input("Hit enter when you are ready to continue: ")
+        while answer != 1:
+            answer = input("\nOn Conveyor Belt Planet should Smikka Smikka Smoodoo rebel by switching the packages"
+                           "(switch)\nor just ship the packages like he was supposed to? (nothing) ")
+            if answer.lower != "nothing":
+                break
+            if answer.lower != "switch":
+                break
+
+if answer == "switch":
+    print("Watch the next 15 seconds")
+    answer = input("Hit enter when ready to continue")
+
+if answer == "nothing":
+    print("\nThe Megadoomer gets sent to Tenn and you get the sir units")
+    answer = input("Skip to 3 minutes and watch to 4 minute mark, hit enter to continue")
+    while answer != 21:
+            answer = input("\nYou've just opened the package that landed in the front yard.\nDo the sir units jump "
+                           "out all at once (jump), do you think it is empty and they surprise you? (surprise)\
+                            \nor nothing happens so you decide to destroy it (destroy)? ")
+
+            if answer.lower() == "jump":
+                break
+            if answer.lower() == "surprise":
+                break
+            if answer.lower() == "destroy":
+                break
+
+if answer == "surprise":
+    print("\nThe robots catch you off guard and you panic! You run down to your lab in search of...")
+
+if answer == "jump":
+    print("\nThe insane sirs jump out of the box all at once, looking in your direction.")
+
+if answer == "destroy":
+    print("\nYou've filled the box with explosives and loaded it into your Voot runner. You take off.")
+    answer = input("Will the sir units activate shortly after take off? (activate) will gir play with the box? (play) \
+            \nor will he try to sleep on your head? (nap): \n")
+
+if answer == "play":
+    print("Gir laughs hysterically, much to your annoyance, and begins playing with the box. This creates a disturbance.")
+
+if answer == "activate" or answer == "play":
+    print("The insane sirs active mid flight. At first you don't notice but gir does. Gir: Hi Friends! "
+          "You scream, gir\n who are you talking to? Gir: My scary new friends!One of the sir units opens its head"
+          "up, a saw blade\n appear and it begins to saw through gir's head. Gir: I love you too! Having just"
+          "witnessed this, you end up \nfailing to pay attention to where you going and wind up crashing into a"
+          "giant donut! Sirs and Gir scream, Donut!")
+    answer = input("Do you crash (crash) or regain control just in time to avoid the inevitable (save)? ")
+
+if answer == "nap":
+    print("")
+
+if answer == "crash":
+    print("\nYou scream for gir and the sirs to be quiet. Realizing the extent of the damage the donut caused, you\n"
+          "begin to panic. The robots join in. The voot cruiser plummets helplessly.")
+
+if answer == "save":
+    print("\nYou begin rapidly pressing buttons, hope that your actions will in turn prevent the imminent crash.\n"
+          "Just as this seems to be working...")
+    answer = input("\nDoes gir try to take control thinking he can land the ship? (control) Do the robots throw a party\n"
+                   "(party) or Does the computer let out a warning about a mechanical malfunction? (error) ")
+
+if character.lower() == "dib":
+    print("\nCongratulations, you are now Dib!")
+    print("Your mission: Save The Human Race from Zim")
+    while plan.lower() != "battle":
+        plan = input("Episodes: Battle Dib = battle\nChoose an episode: ")
+
+if character.lower() == "gaz":
+    print("\nCongratulations, you are now Gaz!")
+
+if character.lower() == "gir":
+    print("\nCongratulations, you are now GIR!")
+    while plan.lower() != "mega":
+        plan = input("Episodes: Walk of Doom = walk\nChoose an episode: ")
+
+if character.lower() == "tak":
+    print("\nCongratulations, you are now Tak!")
+
+if character.lower() == "red":
+    print("\nCongratulations, you are now Tallest Red!")
+
+if character.lower() == "purple":
+    print("\nCongratulations, you are now Tallest Purple!")
