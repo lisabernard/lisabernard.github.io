@@ -1,0 +1,166 @@
+/*
+  Web Portfolio
+  Author: Lisa Bernard
+  Date: December 6th, 2016
+
+  Supporting Files: resume.html
+*/
+
+/*
+  headings
+*/
+
+#education {
+  margin-top: 8em;
+}
+
+#pdf {
+    float: right;
+    padding-right: 3em;
+    font-size: 1.5em;
+}
+
+#ed-title {
+    margin-left: 3em;
+}
+
+section {
+  padding-top: 1em;
+  padding-left: 6em;
+  margin-left: -6em;
+  background-color: darkblue;
+  background-color: rgba(0,38,255,0.25);
+  border-color: dodgerblue;
+  border-style: solid;
+  border-width: 3px;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  color: white;
+}
+
+h3.out {
+  color: white;
+  width: 99%;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: oblique;
+  margin-top: 0.1em;
+}
+
+#certifications {
+    margin-top: -2em;
+    font-size: 1.2em;
+}
+
+#certifications  {
+    background: none;
+    border-style: none; 
+}
+
+h5.safety {
+  color: cyan;
+  font-size: 1em;
+}
+
+article#WHMIS {
+  float: left;
+  padding-left: 15%;
+  display: block;
+}
+
+img.cert {
+  background-color: darkblue;
+  background-color: rgba(0,200,255,0.3);
+  border-color: cyan;
+  border-style: solid;
+  border-width: 4px;
+}
+
+article#WHMIS ul {
+  padding-left: 5em;
+}
+
+article#WHMIS h5 {
+  padding-left: 8em;
+}
+
+article#OHS ul {
+  padding-right: 5em;
+}
+
+article#OHS h5 {
+  padding-right: 9em;
+}
+
+article#OHS {
+  float: right;
+  padding-right: 10%;
+  text-align: right;
+}
+
+h5.title {
+  margin-bottom: 1em;
+  list-style: none;
+  font-weight: Bold;
+  font-size: 1em;
+}
+
+/*
+  basic formatting
+*/
+
+#certifications, #hobbies,  #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news {
+  padding-left: 5em;
+}
+
+ul, dl, p {
+  font-weight: normal;
+}
+
+p {
+  width: 80%;
+}
+
+#soft {
+  list-style-type: bullet;
+}
+
+#hobbies #title {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+/*
+  description list
+*/
+
+dt.achievements {
+  font-weight: bold;
+}
+
+/*
+  font size
+*/
+
+li, p, h4, dl {
+    font-size: 1.2em;
+}
+
+/*
+  color
+*/
+
+#in, #hobby {
+  color: white;
+}
+
+/*
+  other
+*/
+
+a.amp {
+  font-size: 0.7em;
+  color: white;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}

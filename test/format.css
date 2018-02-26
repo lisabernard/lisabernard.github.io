@@ -1,0 +1,113 @@
+/*
+  basic formatting
+*/
+
+body {  
+  font-family: calibri, arial, times new roman;  
+  background-image: url(back2.png);
+  background-size: 100%; 
+  background-repeat: repeat-y;
+  width: 96.8%;     
+  background-color: black;
+  -webkit-text-size-adjust: 100%;
+}
+
+section {
+  padding-top: 1em;
+  padding-left: 6em;
+  margin-left: -6em;
+  background-color: darkblue;
+  background-color: rgba(0,38,255,0.25);
+  border-color: dodgerblue;
+  border-style: solid;
+  border-width: 3px;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  color: white;
+}
+
+.blue:hover {
+  background: grey;
+  background: rgba(0,255,255,0.1);
+  border-color: cyan;
+}
+
+.purple:hover {
+  background: rgb(225,163,255);
+  background: rgba(225,163,255,0.1);
+  border-color: rgb(225,163,255);
+}
+
+section.purple {
+    background-color: rgb(178,0,255);
+    background-color: rgba(178,0,255,0.5);
+    border-color: rgb(178,0,255);
+}
+
+dl {
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+dd {
+  margin-left: -0.1em;
+  height: 2em;
+}
+
+dt {
+  height: 1.5em;
+}
+
+#pageup {
+  clear: left;
+  text-align: center;
+  font-size: 0.75em;
+  text-decoration: none;
+  margin-top: 1em;
+  padding-top: 1em;
+  display: block;
+}
+
+html {
+  min-width: 59em;
+  max-width: 150%;
+}
+
+h3, h4 {
+  text-align: center;    
+} 
+
+a {
+  color: cyan;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/*
+  ul
+*/
+
+ul {
+  list-style: none;
+}
+
+ul.indentless {
+    margin-left: -3em;
+    color: cyan;
+}
+
+ul.bullet {
+  list-style: square;
+}
+
+ul.indent-bullet {
+  list-style: square;
+  padding-left: 8em;
+}
+
+a img {
+  border:none;
+  outline:none;
+}
