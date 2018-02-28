@@ -63,10 +63,6 @@ dd {
   display: block;
 }
 
-html {
-  min-width: 40em;
-}
-
 h3, h4 {
   text-align: center;    
 } 
