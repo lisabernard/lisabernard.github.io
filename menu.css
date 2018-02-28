@@ -11,6 +11,10 @@
   body
 */
 
+header {
+    width: 99%;
+}
+
 img.button { /* space between top menu items */
   margin-left: 0.1em;
   margin-right: 0.1em;
