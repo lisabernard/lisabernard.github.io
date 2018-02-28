@@ -12,10 +12,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-header {
-   width: auto;
-}
-
 section {
   padding-top: 1em;
   padding-left: 6em;
@@ -73,8 +69,7 @@ dt {
 }
 
 html {
-  min-width: 59em;
-  max-width: 150%;
+  min-width: 50em;
 }
 
 h3, h4 {
