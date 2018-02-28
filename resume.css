@@ -10,58 +10,70 @@
   headings
 */
 
+#education {
+  margin-top: 8em;
+}
+
+#pdf {
+    float: right;
+    padding-right: 3em;
+    font-size: 1.5em;
+}
+
+#ed-title {
+    margin-left: 3em;
+}
+
+section {
+  padding-top: 1em;
+  padding-left: 6em;
+  margin-left: -6em;
+  background-color: darkblue;
+  background-color: rgba(0,38,255,0.25);
+  border-color: dodgerblue;
+  border-style: solid;
+  border-width: 3px;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  color: white;
+}
+
 h3.out {
-  background-color: rgb(0,116,81);
-  background-color: rgba(0,116,81,0.5);
   color: white;
   width: 99%;
   text-align: center;
-  font-size: 1.15em;
+  font-size: 1.5em;
   font-style: oblique;
-  border-top-style: solid;
-  border-top-color: black;
-  border-top-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  border-bottom-width: 2px;
   margin-top: 0.1em;
 }
 
-h3#title {
-  background-color: rgb(0,116,81);
-  background-color: rgba(0,116,81,0.5);
-  color: white;
-  font-size: 2.3em;
-  font-style: oblique;
-  border-top-style: solid;
-  border-top-color: black;
-  border-top-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  border-bottom-width: 2px;
-  margin-top: 2em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  text-align: center;
-  font-weight: bold;
+#certifications {
+    margin-top: -2em;
+    font-size: 1.2em;
 }
 
-section#certifications h4 {
-  font-size: 1em;
-  margin-left: 1em;
-}
-
-#certifications h4 {
-  text-align: center;
+#certifications  {
+    background: none;
+    border-style: none; 
 }
 
 h5.safety {
-  color: green;
+  color: cyan;
+  font-size: 1em;
 }
 
 article#WHMIS {
   float: left;
   padding-left: 15%;
+  display: block;
+}
+
+img.cert {
+  background-color: darkblue;
+  background-color: rgba(0,200,255,0.3);
+  border-color: cyan;
+  border-style: solid;
+  border-width: 4px;
 }
 
 article#WHMIS ul {
@@ -86,16 +98,9 @@ article#OHS {
   text-align: right;
 }
 
-#hobbies h5.title {
+h5.title {
   margin-bottom: 1em;
   list-style: none;
-}
-
-#certifications h5.title {
-  color: rgb(0,116,81);
-}
-
-h5.title {
   font-weight: Bold;
   font-size: 1em;
 }
@@ -104,7 +109,7 @@ h5.title {
   basic formatting
 */
 
-#certifications, #hobbies, #soft, #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news, #weekly, #cleanup, #walk, #karate, #school {
+#certifications, #hobbies,  #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news {
   padding-left: 5em;
 }
 
@@ -116,25 +121,8 @@ p {
   width: 80%;
 }
 
-/*
-  ul
-*/
-
-ul {
-  list-style: none;
-}
-
-ul#bullet {
-  list-style: square;
-  padding-left: 7%;
-}
-
 #soft {
   list-style-type: bullet;
-}
-
-#hobbies ul {
-  list-style: square;
 }
 
 #hobbies #title {
@@ -150,28 +138,12 @@ dt.achievements {
   font-weight: bold;
 }
 
-dt {
-  height: 1.5em;
-}
-
-dd {
-  height: 2em; 
-}
-
 /*
-  image
+  font size
 */
 
-/*
-  divider
-*/
-
-#co-op, #toysrus, #weekly, #news, #walk, #karate, #school, #hobbies, #certifications {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-top-style: solid;
-  border-top-color: rgb(0,116,81);
-  border-top-width: 1px;
+li, p, h4, dl {
+    font-size: 1.2em;
 }
 
 /*
@@ -179,23 +151,16 @@ dd {
 */
 
 #in, #hobby {
-  color: rgb(0,80,50);
+  color: white;
 }
 
 /*
   other
 */
 
-#pageup {
-  clear: left;
-  text-align: center;
-  font-size: 0.75em;
-  text-decoration: none;
-  margin-top: 1em;
-  padding-top: 1em;
-  display: block;
-}
-
 a.amp {
   font-size: 0.7em;
+  color: white;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }

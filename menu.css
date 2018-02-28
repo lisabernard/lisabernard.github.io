@@ -1,0 +1,84 @@
+-/*
+  Web Portfolio
+  Author: Lisa Bernard
+  Date: December 6th, 2016
+
+  Filename:         home.css
+  Supporting Files: home.html, worksamples.html, skils.html, goals.html, about.html, resume.html, doom.html and contact.html
+*/
+
+/*
+  body
+*/
+
+img.button { /* space between top menu items */
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+nav {
+  background-color: black;
+}
+
+#center { 
+  text-align: center;    
+}
+
+header {
+  background-image: url(back.png);
+  background-position: top center;
+  background-repeat:no-repeat;
+  margin: -0.5em;
+  padding-bottom: 3em;
+  padding-right: 0.3em;
+  display: block;
+  margin-top: -1.5em;
+  margin-right: -3.3em;
+}
+
+#contact {
+  position: absolute;
+  top: -40px;
+  z-index: 10;
+  font-family: BankGothic Lt BT;
+  width: 99%;    
+  float: right;
+  position: relative;
+  top: -100px;
+  padding-top: 3em;
+}
+
+#banner {
+  position: relative;
+  top: -2.5em;
+  float: right;
+  right: -1em;
+  width: 30em;
+}
+
+.space {
+  margin-right: 0.5em;
+}
+
+#menu {
+  position: relative; 
+  z-index: 200;
+  top: 7em;
+  padding-left: 1em;
+  margin-right: -0.5em;    
+}   
+
+img.button { 
+  margin-left: 2.5%; 
+  margin-right: 2.5%; 
+}
+
+img.space {
+  margin-left: 0.4em;   
+}    
+
+header {
+  display: block;
+  background-color: black;
+  padding-bottom: 3.7em;
+}
