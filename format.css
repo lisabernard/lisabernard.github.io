@@ -7,9 +7,9 @@ body {
   background-image: url(back2.jpg);
   background-size: 100%; 
   background-repeat: repeat-y;
-  width: 96%;     
+  width: 96.2%;     
   background-color: black;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 96.2%;
 }
 
 section {
