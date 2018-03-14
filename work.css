@@ -47,6 +47,8 @@ p {
 figcaption {
   padding-top: 1em;
   text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 /* Slideshow CSS */
