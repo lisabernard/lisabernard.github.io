@@ -1,29 +1,29 @@
 /*
   Web Portfolio
   Author: Lisa Bernard
-  Date: December 6th, 2016
+  Date: March 14th, 2016
 
   Supporting Files: resume.html
 */
 
-/*
-  headings
-*/
+/* moves the menu up */
+html {
+  margin-top: -1.85em;
+}
 
+/* moves first element down */
 #education {
   margin-top: 8em;
 }
 
+/* PDF link */
 #pdf {
     float: right;
     padding-right: 3em;
     font-size: 1.5em;
 }
 
-#ed-title {
-    margin-left: 3em;
-}
-
+/* All sections */
 section {
   padding-top: 1em;
   padding-left: 6em;
@@ -38,36 +38,21 @@ section {
   color: white;
 }
 
-h3.out {
-  color: white;
-  width: 99%;
-  text-align: center;
-  font-size: 1.5em;
-  font-style: oblique;
-  margin-top: 0.1em;
-}
-
-#certifications {
+/* Certifications selection title */
+#certifications  {
+    background: none;
+    border-style: none;
     margin-top: -2em;
     font-size: 1.2em;
 }
 
-#certifications  {
-    background: none;
-    border-style: none; 
-}
-
+/* Certifications selection subtitles */
 h5.safety {
   color: cyan;
   font-size: 1em;
 }
 
-article#WHMIS {
-  float: left;
-  padding-left: 15%;
-  display: block;
-}
-
+/* Certifications selection images */
 img.cert {
   background-color: darkblue;
   background-color: rgba(0,200,255,0.3);
@@ -76,40 +61,42 @@ img.cert {
   border-width: 4px;
 }
 
-article#WHMIS ul {
-  padding-left: 5em;
+/* Certifications selection WHMIS article */
+#WHMIS {
+  float: left;
+  margin-left: 15%;
+  display: block;
 }
 
-article#WHMIS h5 {
-  padding-left: 8em;
+#WHMIS ul {
+  margin-left: 5em;
 }
 
-article#OHS ul {
-  padding-right: 5em;
+#WHMIS h5 {
+  margin-left: 8em;
 }
 
-article#OHS h5 {
-  padding-right: 9em;
-}
+/* Certifications selection OHS article */
 
-article#OHS {
+#OHS {
   float: right;
-  padding-right: 10%;
+  margin-right: 10%;
   text-align: right;
 }
 
-h5.title {
-  margin-bottom: 1em;
-  list-style: none;
-  font-weight: Bold;
-  font-size: 1em;
+#OHS ul {
+  margin-right: 5em;
+}
+
+#OHS h5 {
+  margin-right: 9em;
 }
 
 /*
   basic formatting
 */
 
-#certifications, #hobbies,  #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news {
+#certifications,  #nscc, #experiance, #buisness, #co-op, #m30, #toysrus, #news {
   padding-left: 5em;
 }
 
@@ -123,11 +110,6 @@ p {
 
 #soft {
   list-style-type: bullet;
-}
-
-#hobbies #title {
-  margin-bottom: 1em;
-  list-style: none;
 }
 
 /*
@@ -144,23 +126,4 @@ dt.achievements {
 
 li, p, h4, dl {
     font-size: 1.2em;
-}
-
-/*
-  color
-*/
-
-#in, #hobby {
-  color: white;
-}
-
-/*
-  other
-*/
-
-a.amp {
-  font-size: 0.7em;
-  color: white;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
 }

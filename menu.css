@@ -1,39 +1,37 @@
--/*
+/*
   Web Portfolio
   Author: Lisa Bernard
-  Date: December 6th, 2016
+  Date: March 14th, 2018
 
-  Filename:         home.css
-  Supporting Files: home.html, worksamples.html, skils.html, goals.html, about.html, resume.html, doom.html and contact.html
+  Supporting Files: index.html, resume.html, goals.html, work.html
 */
 
-/*
-  body
-*/
-
-img.button { /* space between top menu items */
+/* adjusts the space between top menu items */
+img.button { 
   margin-left: 0.1em;
   margin-right: 0.1em;
 }
 
+/* nav */
 nav {
   background-color: black;
 }
 
+/* centers an element */
 #center { 
   text-align: center;    
 }
 
+/* header */
 header {
-  background-image: url(back.jpg);
+  background-image: url(back.png);
   background-position: top center;
-  background-repeat:no-repeat;
-  background-size: fit;
+  background-repeat: repeat-x;
   margin: -0.5em;
   padding-bottom: 3em;
   padding-right: 0.3em;
   display: block;
-  margin-top: -1.5em;
+  margin-top: -1.5em; /* remove space at the top */
   margin-right: -3.3em;
 }
 

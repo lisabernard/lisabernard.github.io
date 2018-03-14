@@ -1,0 +1,33 @@
+/*
+  Web Portfolio
+  Author: Lisa Bernard
+  Date: March 14th, 2016
+
+  Supporting Files: goals.html
+*/
+
+/* moves first element down */
+#shortterm {
+  margin-top: 8em;
+}
+
+/* h3 and dl */
+h3, dl {
+  padding-left: 5em;
+}
+
+/* dt */
+dt {
+  font-weight: bold;
+  color: cyan;
+}
+
+/* dd */
+dd {
+  padding-bottom: 1em;
+}
+
+/* dd and dt */
+dd, dt {
+  font-size: 1.2em;
+}

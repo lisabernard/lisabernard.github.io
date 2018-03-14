@@ -1,0 +1,88 @@
+/* moves first section down */
+#programming {
+  margin-top: 8em;
+}
+
+/* interactive code toggling tabs */
+#py, #c {
+  background-color: rgb(244,244,244);
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: bold;
+}
+
+/* Spaces tabs */
+#c {
+  margin-left: 2em;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* iframes */
+#vs_iframe {
+  width: 75%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255,255,255,0);
+}
+
+#video1, #vs_iframe {
+  height: 19.5em;
+  width: 36.2em;
+}
+
+#rep_iframe {
+  width: 75%;
+}
+
+#py, #rep_iframe {
+  margin-left: 10%;
+}
+
+figcaption {
+  padding-top: 1em;
+  text-align: center;
+}
+
+/* Slideshow CSS */
+.slide {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: grey;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
