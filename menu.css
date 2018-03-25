@@ -7,9 +7,14 @@
 */
 
 /* adjusts the space between top menu items */
-img.button { 
+.button { 
   margin-left: 0.1em;
   margin-right: 0.1em;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-right: 5%;
+  color: white;
+  font-weight: normal;
 }
 
 /* nav */
@@ -32,7 +37,7 @@ header {
   padding-right: 0.3em;
   display: block;
   margin-top: -1.5em; /* remove space at the top */
-  margin-right: -3.3em;
+  width: 99.85%;
 }
 
 #contact {

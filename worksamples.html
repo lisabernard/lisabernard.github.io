@@ -13,7 +13,6 @@
     <title>Lisa's Portfolio</title>
     <script src="modernizr-1.5.js" language="javascript" ></script>
     <meta charset="utf-8" />
-	<script src="modernizr-1.5.js"></script>
     <meta name="Author" Content="Lisa Bernard" />
     <meta name="description" content="Sample projects" />
     <meta name="keywords" content="access, programming, python, html" />
@@ -23,15 +22,16 @@
   </head>
 
   <body>
+    
     <header> 
       <!-- menu -->
       <nav id="menu"> 
         <h1 id="center">
-          <a href="index.html"/><img class="button" src="home.png" alt="button"/><a/>
-          <a href="resume.html"/><img class="button" src="resume.png" alt="button"/><a/>
-          <a href="goals.html"/><img class="button" src="goals.png" alt="button"/><a/>
-          <a href="worksamples.html"/><img class="button" src="work.png" alt="button"/><a/>
-          <a href="https://thedoomcider.github.io" target="new"/><img class="button" src="web.png" alt="button"/><a/>
+          <a class="button" href="index.html"/>Home<a/>
+          <a class="button" href="resume.html"/>Resume<a/>
+          <a class="button" href="goals.html"/>Goals<a/>
+          <a class="button" href="skills.html"/>Skills<a/>
+          <a class="button" href="worksamples.html"/>Work Samples<a/>
         </h1>
       </nav>
 	  
@@ -48,26 +48,18 @@
     <section class="blue_padding" id="programming">
       <h3 class="out" id="prog">Programming in Python</h3>
       
-      <p>In December 2016, I finished a <a href="https://www.tutorialspoint.com/python/index.htm" target="_blank">Python</a> programming course. During that time, I explored the use of basic programming concepts, such as: <a href="https://www.afterhoursprogramming.com/tutorial/python/if-statement/" target="_blank">if statements</a>, <a href="https://www.tutorialspoint.com/python/python_functions.htm" target="_blank">functions</a>, <a href="https://www.thegeekstuff.com/2013/08/python-array/" target="_blank">arrays</a>, file input/output and <a href="https://www.tutorialspoint.com/python/python_loops.htm" target="_blank">loops</a>. By the end of the course, I had programmed a variety of console-based, graphical and hardware interface applications. Below, I have an embedded battleship application that I programmed as part of my course.</p>
-        
-      <p>Before I dove into developing said application, I didn’t know how to use a <a href="https://snakify.org/lessons/two_dimensional_lists_arrays/" target="_blank">2d array</a>. As I worked on it, I learned how to put file input into 2D arrays, update the graphics, end the game if the user sinks all the ships or runs out of ammo and tell the user when they’ve sunk a ship (that part was for bonus points). If I were to redo this program, I would simplify the code by adding more comments and avoiding redundances. I’d also add features, such as high scores and a user specified ammo count.</p>
+      <p>Below, I have an embedded battleship application that I programmed as part of my <a href="https://www.tutorialspoint.com/python/index.htm" target="_blank">Python</a> course. Before developing it, I didn’t know how to use a <a href="https://snakify.org/lessons/two_dimensional_lists_arrays/" target="_blank">2D array</a>. As I worked on it, I learned how to put file input into 2D arrays, update the graphics, end the game if the user sinks all the ships or runs out of ammo and tell the user when they’ve sunk a ship (that part was for bonus points). If I were to redo this program, I would simplify the code by adding more comments and avoiding redundancies. I’d also add features, such as high scores and a user specified ammo count.</p>
       
       <h3 class="out" id="prog">Programming in C</h3>
       
-      <p>A year after learning Python, I took a <a href="https://computer.howstuffworks.com/c1.htm" target="_blank">C</a> programming course. Throughout it, I learned about <a href="https://www.le.ac.uk/users/rjm1/cotter/page_19.htm" target="_blank">data types</a>, <a href="https://study.com/academy/lesson/dynamic-memory-allocation-definition-example.html" target="_blank">memory allocation</a> and <a href="https://www.tutorialspoint.com/cprogramming/c_structures.htm" target="_blank">structs</a>, in addition to the aformentioned basic programming concepts. By the end of the course, I had programmed numerous console-based applications.</p>
-      
-      <p>The most advanced C program I’ve developed is a student data entry program (embedded below).  Before working on this program, I didn’t know how to use file input/output (in C) and memory allocation (<a href="https://www.tutorialspoint.com/c_standard_library/c_function_realloc.htm" target="_blank">realloc</a> and <a href="https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm" target="_blank">malloc</a>) to accommodate for dynamic data. So, as I began to complete the application, I learned about memory allocation, file input/output and <a href="http://www.c4learn.com/c-programming/c-nested-structure/" target="_blank">nested structs</a>.</p>
+      <p>The most advanced <a href="https://computer.howstuffworks.com/c1.htm" target="_blank">C</a> program I’ve developed is a student data entry program (embedded below). Before working on this program, I didn’t know how to use file input/output (in C) and memory allocation (<a href="https://www.tutorialspoint.com/c_standard_library/c_function_realloc.htm" target="_blank">realloc</a> and <a href="https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm" target="_blank">malloc</a>) to accommodate for dynamic data. So, as I began to complete the application, I learned about memory allocation, file input/output and <a href="http://www.c4learn.com/c-programming/c-nested-structure/" target="_blank">nested structs</a>.</p>
       
       <p>Overall, I’m happy with how it turned out. Although if I ended up redoing this program, I would use more descriptive variable names to make the code easier to follow.</p>
-      
-      <h3 class="out" id="fur-prog">Future Programming Ambitions</h3>
-      
-      <p>Looking to the future, I would like to program more advanced applications in Python and C. I'd also like learn more programming languages such as Javacript and PHP.</p>
         
       <a id="py" href="https://repl.it/@LisaBenard/FrigidDefensiveCircle?lite=true" target="prog">Sample Python Application</a>
       <a id="c" href="https://repl.it/@LisaBenard/SugaryUrbanTags?lite=true" target="prog">Sample C Application</a>
         
-      <iframe name="prog" id="rep_iframe" height="600px" width="99%" src="https://repl.it/@LisaBenard/SugaryUrbanTags?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      <iframe name="prog" id="rep_iframe" height="600px" width="99%" src="blank.html" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
         
       <figcaption>Click the play button in the bottom righthand corner to run an application. You can also use the tabs to toggle between the two programs. (Embedded interpreters curtesy of <a href="https://repl.it/" target="_blank">repl.it</a>) NOTE: this is not mobile friendly.</figcaption>
     </section>
@@ -75,11 +67,10 @@
     <section id="html" class="white_padding">
       <h3 class="out" id="html">HTML/CSS</h3>
     
-      <p>One of the first courses I took as part of the Computer Electronics Program was <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a>/<a href="https://www.w3schools.com/html/html_css.asp" target="_blank">CSS</a> based Web Development. During which I learned and experimented with various HTML tags and CSS styles. My final project was a web portfolio which I later revamped to create the one you are currently browsing.</p>
+      <p>I started developing a web-based project of my own design. It’s an <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a>/<a href="https://www.w3schools.com/html/html_css.asp" target="_blank">CSS</a> “Create Your Own Story Game” which I started developing in October 2016. Going into it, I didn’t know about HTML and CSS mobile browser compatibility issues or centralization. As a result, I learned about designing mobile websites and expanded my knowledge of HTML and CSS. If I was to redo it, I would account for easier maintenance.</p> 
       
-      <p>In addition, I started developing a web-based project of my own design. It’s an HTML/CSS “Create Your Own Story Game” which I started developing in October 2016. Going into it, I didn’t know about HTML and CSS mobile browser compatibility issues or centralization. As a result, I learned about designing mobile websites and expanded my knowledge of HTML and CSS. If I was to redo it, I would account for easier maintenance. 
-        
-      <p>Regardless, I plan to keep improving, expanding and maintaining it. The trailer is embedded below and the game's website is <a href="https://thedoomcider.github.io" target="new">https://thedoomcider.github.io</a></p>
+      <p>Regardless, I plan to keep improving, expanding and maintaining it. The trailer is embedded below, and the game's website is 
+      <a href="https://thedoomcider.github.io" target="new">https://thedoomcider.github.io</a></p>
        
       <h2 id ="center"><iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/bwrkqkb6p14?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></h2>
     </section>
@@ -87,11 +78,9 @@
     <section id="fusion" class="blue_padding">
       <h3 class="out" id="3d">Fusion 360</h3>
       
-      <p>As part of my System Analysis and Design course, I learned about both 3D design and printing. Now I can take a 2D sketch containing the measurements and angles of an object. Then use that information to create a scale 3D model. Below is a bending jig (a small wire bending tool) which I modeled in <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators" target="_blank">Fusion 360</a> and later 3D printed.</p>
+      <p>Below is a bending jig (a small wire bending tool) which I modeled in <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators" target="_blank">Fusion 360</a> and later 3D printed.</p>
       
-      <p>Prior to modeling this tool, I’d never designed a model nor readied one for 3d printing. In addition, I learned about the challenges that can accompany 3d printing. If I were to redo this model, I would increase the size, allowing it to take more measurements.</p>
-      
-      <p>In the future, I'd like to make more elaborate models.</p>
+      <p>Prior to modeling this tool, I’d never designed a model nor readied one for 3D printing. In addition, I learned about the challenges that can accompany 3D printing. If I were to redo this model, I would increase the size, allowing it to take more measurements.</p>
       
       <h2 id ="center"><iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&url=https://lisabernard.github.io/tool.stl&orientation=top&bgcolor=transparent&noborder=yes"></iframe></h2>
       
@@ -101,11 +90,7 @@
     <section id="PCB" class="white_padding"> <!--orignal source code for slideshow from w3schools (later modified by me)-->
       <h3 class="out" id="3d">PCB/Circuit Board Design</h3>
       
-      <p>In addition to learning 3D CAD, I took a <a href="https://learn.sparkfun.com/tutorials/pcb-basics" targt="_blank">PCB</a> (Printed Circuit Board) design course. In which I was taught how to make schematics, custom footprints and pad stacks as well as layout and route PCBs.</p>
-      
-      <p>My final project as was an Arduino calculator shield. This was the first assignment that I had to take a schematic created in a different program (<a href="http://kicad-pcb.org/" target="_blank">KiCad</a>) and redo it in <a href="http://www.orcad.com/about/overview" target="_blank">Orcad</a>. During the process of creating this shield, I learned about the schematical differences between OrCad and KiCad as well as making custom footprints and padstacks (I only used custom ones to create this board). If I were to redo this assignment, I would probably try to use less vias (more as a personal challenge than anything).</p> 
-      
-      <p>In the future I would love to make more PCB boards and possibly learn how to use KiCad.</p>
+      <p>My final project PCB as was an Arduino calculator shield. This was the first assignment that I had to take a schematic created in a different program (<a href="http://kicad-pcb.org/" target="_blank">KiCad</a>) and redo it in <a href="http://www.orcad.com/about/overview" target="_blank">Orcad</a>. During the process of creating this shield, I learned about the schematical differences between OrCad and KiCad as well as making custom footprints and padstacks (I only used custom ones to create this board). If I were to redo this assignment, I would probably try to use less vias (more as a personal challenge than anything).</p> 
       
       <div class="slideshow-container">
         <div class="myPictures">
